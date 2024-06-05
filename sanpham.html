@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đô Thị Thông Minh
+    </title>
+    <link rel="icon" href="./assets/img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/style.css">
+    
+    <link rel="stylesheet" href="./assets/home.css">
+    <link rel="stylesheet" href="./assets/footer.css">
+    <link rel="stylesheet" href="./assets/vechungtoi.css">
+    <link rel="stylesheet" href="./assets/giaiphap.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <div class="navbar" id="navbar"></div>
+   <div class="breadcrumb">
+    <h1>Bộ điều khiển NEMA</h1>
+    <p><a href="./index.html">Trang chủ</a><span class="separator"> – </span><span class="last">Bộ điều khiển NEMA</span></p>
+   </div>
+   <div class="box-content">
+    <div class="box-content-left">
+        <h2>
+            Nema Controller </h2> 
+            <h2>LC9005/LC9006/LC9007</h2>
+        <p>Luci RMS là giải pháp được ưa chuộng nhất trong mô hình triển khai Đô thị thông minh đến từ Luci. Chúng tôi hiểu và trân trọng những thách thức trong quá trình vận hành quản lý của bạn. Giải pháp quản lý đô thị thông minh Luci RMS giúp cân bằng giữa việc chăm sóc xuất sắc và chuyên nghiệp cho cư dân trong khi vẫn hoàn thành tốt các công việc của Ban Quản Lý.Bộ điều khiển đèn không dây Nema tương thích với chuấn socket NEMA (ANSI C136.41) dễ dàng thi công lắp đặt nhờ thiết kế plug-and-play. Từ đó dễ dàng điều khiển, thu thập và giám sát các trạng thái thông số của thiết bị để quản lý thông minh góp phần tối ưu hóa hoạt động, tiết kiệm năng lượng.</p>
+        <!-- <a href="" target="_self" class="btn-doc">
+            <span>Đọc thêm về chúng tôi</span>
+            <i class="icon-angle-right" aria-hidden="true"></i></a> -->
+
+    </div>
+    <div class="box-content-right">
+        <img src="./assets/img/NEMA.webp" alt="" srcset="">
+    </div>
+   </div>
+   <div class="box-card">
+    <h2>RMS ĐƯỢC TỐI ƯU CHO?</h2>
+    <div class="box-card-content" id="card-content">
+       
+        
+    </div>
+</div>
+
+    <footer>
+        <div class="footer-container" id="footer-container">
+            </div>
+            <div class="footer-bottom">
+              <p>&copy; 2024 Le Minh Tu. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="./assets/footer.js"></script>
+    <script src="./assets/navbar.js"></script>
+    <script src="./assets/script.js"></script>
+    <script src="./assets/home.js"></script>
+    <script>
+        var card = '';
+        for(let i=1;i<=4;i++){
+            card += ` <div class="box-card-content-item">
+                <img src="./assets/img/blog1.jpg" alt="">
+                <h3>QUẢN LÝ CƯ DÂN</h3>
+                <ul>
+                    \<li>Quản lý bất động sản sở hữu và thành viên bất động sản</li>
+                    <li>Gửi phản ánh tới Ban quản lý</li>
+                    <li>Đăng ký biểu mẫu online</li>
+                    <li>Thanh toán hóa đơn qua ví điện tử hoặc chuyển khoản</li>
+                </ul>
+    
+            </div>`
+        }
+        document.getElementById('card-content').innerHTML = card;
+    </script>
+</body>
+</html>

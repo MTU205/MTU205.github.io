@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đô Thị Thông Minh
+    </title>
+    <link rel="icon" href="./assets/img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/style.css">
+    
+    <link rel="stylesheet" href="./assets/home.css">
+    <link rel="stylesheet" href="./assets/footer.css">
+    <link rel="stylesheet" href="./assets/vechungtoi.css">
+    <link rel="stylesheet" href="./assets/giaiphap.css">
+    <link rel="stylesheet" href="./assets/dichvu.css">
+    <link rel="stylesheet" href="./assets/tintuc.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <div class="navbar" id="navbar"></div>
+   <div class="breadcrumb">
+    <h1>Tin tức</h1>
+    <p><a href="./index.html">Trang chủ</a><span class="separator"> – </span><span class="last">Tin tức</span></p>
+   </div>
+   <div class="box-news-1">
+    <div class="news-box"><img src="./assets/img/blog1.jpg" alt="" srcset="">
+    <h5><a href="#">8 ứng dụng nổi bật của trí tuệ nhân tạo trong giáo dục</a></h5>
+    <div class="date-post">15/05/2024</div></div>
+    <div class="news-box"><img src="./assets/img/blog2.jpg" alt="" srcset=""><h5><a href="#">8 ứng dụng nổi bật của trí tuệ nhân tạo trong giáo dục</a></h5>
+    <div class="date-post">15/05/2024</div></div>
+    <div class="news-box"><img src="./assets/img/blog3.jpg" alt="" srcset=""><h5><a href="#">8 ứng dụng nổi bật của trí tuệ nhân tạo trong giáo dục</a></h5>
+    <div class="date-post">15/05/2024</div></div>
+    <div class="news-box"><img src="./assets/img/blog4.jpg" alt="" srcset=""><h5><a href="#">8 ứng dụng nổi bật của trí tuệ nhân tạo trong giáo dục</a></h5>
+    <div class="date-post">15/05/2024</div></div>
+   </div>
+   <div class="banner-box">
+    <img src="./assets/img/banner-box.webp" alt="" srcset="">
+   </div>
+   <div class="top-news">
+    <h2>Top News</h2>
+   </div>
+   <div class="box-news-2" id="box-news-2">
+    <div class="news-box2"><img src="./assets/img/blog1.jpg" alt="" srcset="">
+        <h5><a href="#">8 ứng dụng nổi bật của trí tuệ nhân tạo trong giáo dục</a></h5>
+        <div class="date-post">15/05/2024</div>
+    </div>
+    
+   </div>
+
+    <footer>
+        <div class="footer-container" id="footer-container">
+            </div>
+            <div class="footer-bottom">
+              <p>&copy; 2024 Le Minh Tu. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="./assets/footer.js"></script>
+    <script src="./assets/navbar.js"></script>
+    <script src="./assets/script.js"></script>
+    <script src="./assets/home.js"></script>
+    <script>
+        var html_box = document.getElementById("box-news-2");
+        var html_news = "";
+        for(var i = 0; i < 10; i++){
+            html_news += `<div class="news-box2"><img src="./assets/img/blog1.jpg" alt="" srcset="">
+                <h5><a href="#">8 ứng dụng nổi bật của trí tuệ nhân tạo trong giáo dục</a></h5>
+                <div class="date-post">15/05/2024</div>
+            </div>`
+        }
+        
+        html_box.innerHTML = html_news;
+    </script>
+</body>
+</html>

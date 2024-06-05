@@ -1,0 +1,86 @@
+.dicvu-gioi-thieu{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height:500px;
+}
+.gioithieu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    padding: 20px;
+    width: 50%;
+}
+.gioithieu h2{
+    margin-bottom: 20px;
+    font-size: 3em;
+    color: rgb(116, 110, 104);
+}
+.gioithieu li{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-size:1.2em ;
+}
+.gioithieu-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    
+}
+.gioithieu-img img{
+    width: 60%;
+    object-fit: cover;
+}
+.dichvu-box{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: aqua;
+    
+    flex-direction: column;
+    align-items: center;
+}
+.dichvu-box h2{
+    margin-top: 20px;
+    
+    font-size: 3em;
+    color: rgb(116, 110, 104);
+}
+.dichvu-box-item{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    /* background-color: #fff; */
+}
+.dichvu-box-item{
+    margin-top: 20px;
+    width: 80%;
+    max-width: 1200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item-logo{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.item-logo img{
+    margin-top: 20px;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+
+    /* background-color: #fff; */
+}
+.item-logo p{
+    font-size: 2em;
+}

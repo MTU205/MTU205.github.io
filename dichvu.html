@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đô Thị Thông Minh
+    </title>
+    <link rel="icon" href="./assets/img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/style.css">
+    
+    <link rel="stylesheet" href="./assets/home.css">
+    <link rel="stylesheet" href="./assets/footer.css">
+    <link rel="stylesheet" href="./assets/vechungtoi.css">
+    <link rel="stylesheet" href="./assets/giaiphap.css">
+    <link rel="stylesheet" href="./assets/dichvu.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <div class="navbar" id="navbar"></div>
+   <div class="breadcrumb">
+    <h1>Tư vấn dự án</h1>
+    <p><a href="./index.html">Trang chủ</a><span class="separator"> – </span><span class="last">Tư vấn dự án</span></p>
+   </div>
+   <div class="box-content">
+    <div class="box-content-left">
+        <!-- <h2>
+            Nema Controller </h2>  -->
+            <h2>TƯ VẤN DỰ ÁN</h2>
+        <p style="font-size:2em;">Luci luôn đồng hành cùng bạn trên chặng đường kiến tạo sáng kiến công nghệ cho các khu đô thị thông minh. Chúng tôi cung cấp dịch vụ tư vấn để cung cấp các giải pháp tốt nhất dành cho bạn. Liên hệ ngay với chúng tôi để nhận được thông tin hữu ích nhất!</p>
+        <a href="" target="_self" class="btn-doc">
+            <span>Đọc thêm về chúng tôi</span>
+            <i class="icon-angle-right" aria-hidden="true"></i></a>
+
+    </div>
+    <div class="box-content-right">
+        <img src="./assets/img/dichvu.jpg" alt="" srcset="">
+    </div>
+   </div>
+   <div class="dicvu-gioi-thieu">
+    <div class="gioithieu">
+        <h2>GIỚI THIỆU</h2>
+        <ul>
+            <li>Tất cả các thiết bị và hệ thống phần mềm được cấp phép của Luci đều có thể được kết nối với không  gian điện toán Luci Cloud để lưu trữ, trực quan hóa và phân tích dữ liệu nhận được.Luci cung cấp dịch vụ tư vấn toàn diện các giải pháp đô thị thông minh dành cho các mô hình bất động sản trên toàn cầu hướng tới các trụ cột: Cộng đồng – Môi trường – Năng lượng – An toàn – Sức khoẻ.</li>
+            <li>Luci xây dựng các phương án giúp bạn tối ưu chi phí vận hành, quản lý nhân sự, công việc từ xa; và giúp bạn nâng tầm giá trị Bất động sản. Liên hệ ngay để nhận được tư vấn tốt nhất ngay hôm nay!</li>
+        </ul>
+    </div>
+    <div class="gioithieu-img">
+        <img src="./assets/img/dichvu.webp" alt="" srcset="">
+    </div>
+   </div>
+   <div class="dichvu-box">
+    <h2>Chúng tôi có thể cung cấp</h2>
+    <div class="dichvu-box-item">
+        <div class="item-logo">
+            <img src="./assets/img/i1.webp" alt="">
+            <p>Tư vấn viên</p>
+            <p>chuyên nghiệp</p>
+        </div>
+        <div class="item-logo">
+            <img src="./assets/img/i2.webp" alt="">
+            <p>Tư vấn viên</p>
+            <p>chuyên nghiệp</p>
+        </div>
+        <div class="item-logo">
+            <img src="./assets/img/i3.png" alt="">
+            <p>Tư vấn viên</p>
+            <p>chuyên nghiệp</p>
+        </div>
+        <div class="item-logo">
+            <img src="./assets/img/i4.png" alt="">
+            <p>Tư vấn viên</p>
+            <p>chuyên nghiệp</p>
+        </div>
+        <div class="item-logo">
+            <img src="./assets/img/i5.png" alt="">
+            <p>Tư vấn viên</p>
+            <p>chuyên nghiệp</p>
+        </div>
+    </div>
+   </div>
+
+    <footer>
+        <div class="footer-container" id="footer-container">
+            </div>
+            <div class="footer-bottom">
+              <p>&copy; 2024 Le Minh Tu. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="./assets/footer.js"></script>
+    <script src="./assets/navbar.js"></script>
+    <script src="./assets/script.js"></script>
+    <script src="./assets/home.js"></script>
+    <script>
+        var card = '';
+        for(let i=1;i<=4;i++){
+            card += ` <div class="box-card-content-item">
+                <img src="./assets/img/blog1.jpg" alt="">
+                <h3>QUẢN LÝ CƯ DÂN</h3>
+                <ul>
+                    \<li>Quản lý bất động sản sở hữu và thành viên bất động sản</li>
+                    <li>Gửi phản ánh tới Ban quản lý</li>
+                    <li>Đăng ký biểu mẫu online</li>
+                    <li>Thanh toán hóa đơn qua ví điện tử hoặc chuyển khoản</li>
+                </ul>
+    
+            </div>`
+        }
+        document.getElementById('card-content').innerHTML = card;
+    </script>
+</body>
+</html>
